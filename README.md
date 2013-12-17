@@ -9,4 +9,4 @@ most of this directory should be moved into your home, but make sure for now to 
 
 The .sh is optional for now.
 
-![alt text](https://github.com/jed833/i3GG/i3gg.png "Screenshot")
+![screenshot](https://raw.github.com/jed833/i3GG/master/i3gg.png "Screenshot")
