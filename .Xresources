@@ -1,0 +1,17 @@
+! --------------------------------------------
+! Perl CopyPasta
+! Must have urxvt-perl
+! -------------------------------------------
+
+URxvt.perl-ext-common           :               default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher       :               firefox-nightly
+
+
+URxvt.scrollBar                 :               false
+
+! --------------------------------------------
+! URXVT colors
+! -------------------------------------------
+
+URxvt.background                :               #181818
+URxvt.foreground                :               #029b48
