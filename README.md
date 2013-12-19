@@ -5,8 +5,13 @@ Theme for the i3 Window manager
 
 At the moment, this is setup for a base arch install of i3.
 
-most of this directory should be moved into your home, but make sure for now to change 13config to .i3config
+The i3GG.sh is optional for now, however the working.sh should put many of the files into the correct place on your machine
 
-The .sh is optional for now.
+
+REQUIRED PACKAGES:
+====
+
+urxvt, slim, urxvt perl files, urxvt tabbedex, i3.
+
 
 ![screenshot](https://raw.github.com/jed833/i3GG/master/i3gg.png "Screenshot")
