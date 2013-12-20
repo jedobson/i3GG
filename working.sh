@@ -10,7 +10,7 @@ cp ~/github/i3GG/.xinitrc ~
 cp ~/github/i3GG/.Xresources ~
 cp ~/github/i3GG/.i3status.conf ~
 cp -R ~/github/i3GG/.i3 ~
-sudo cp ~/github/i3GG/slim.conf ~
+sudo cp ~/github/i3GG/slim.conf /etc
 
 
 

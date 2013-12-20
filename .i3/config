@@ -25,7 +25,7 @@ font pango:Terminus 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -36,6 +36,12 @@ bindsym $mod+d exec dmenu_run
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# Add floating window mods, press MOD1+left mouse on any floating to move
+# floating_modifier mod1
+
+new_window 1pixel
+#border none
 
 # change focus
 bindsym $mod+j focus left
