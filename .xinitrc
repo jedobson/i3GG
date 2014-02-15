@@ -12,5 +12,8 @@ xrdb ~/.Xresources
 #uses feh to set background for x
 sh ~/.fehbg &
 
+#use xcompmgr at boot
+xcompmgr -c &
+
 #used for SLiM
 exec $1

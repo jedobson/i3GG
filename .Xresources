@@ -4,7 +4,7 @@
 ! --------------------------------------------
 
 URxvt.perl-ext-common           :               default,clipboard,url-select,keyboard-select,tabbedex
-URxvt.url-select.launcher       :               firefox-nightly
+URxvt.url-select.launcher       :               firefox
 
 
 URxvt.scrollBar                 :               false
@@ -19,6 +19,12 @@ URxvt.foreground                :               #029b48
 URxvt.color0                    :               #020202
 URxvt.color1                    :               #029b48
 URxvt.color2                    :               #000000
+
+! --------------------------------------------
+! URXVT font
+! --------------------------------------------
+
+URxvt.font                      :               xft:Terminus:size=10
 
 ! --------------------------------------------
 ! URXVT Tabs

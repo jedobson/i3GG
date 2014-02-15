@@ -14,7 +14,8 @@ set $mod Mod1
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:Terminus 10 
+font pango:Terminus 10
+#font pango:bitocra 12
 # The font above is very space-efficient, that is, it looks good, sharp and
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
@@ -132,7 +133,10 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 #start firefox
-bindsym $mod+Shift+f exec firefox-nightly
+bindsym $mod+Shift+f exec firefox
+
+#toggle xcompmgr 
+bindsym $mod+Shift+m sh /home/jed/xcompmgrsh.sh
 
 #application launcher
 #bindsym $mod+Shift+o exec "urxvt -geometry 80x3 -name 'bashrun' -e sh -c '/bin/bash -i -t'"
